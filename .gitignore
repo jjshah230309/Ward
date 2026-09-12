@@ -1,0 +1,13 @@
+# Swift build products
+.build/
+build/
+DerivedData/
+
+# Code-signing material. A certificate published once is a certificate
+# somebody else can sign software as you with.
+.signing/
+*.p12
+*.pem
+*.cer
+
+.DS_Store
